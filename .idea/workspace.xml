@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ad1a958-9a07-46ae-9020-7fb7e3596d36" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iX5h6fzQmmLiJeVoygD3JFXiQw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cs235flix/movies" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sanjeev Toora\Desktop\Srishti new\srishti-cs230\CS235FlixSkeleton-Extensions\cs235flix\static" />
+      <recent name="C:\Users\Sanjeev Toora\Desktop\Srishti new\srishti-cs230\CS235FlixSkeleton-Extensions\tests\unit" />
+      <recent name="C:\Users\Sanjeev Toora\Desktop\Srishti new\srishti-cs230\CS235FlixSkeleton-Extensions\tests\unit\domain model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sanjeev Toora\Desktop\Srishti new\srishti-cs230\CS235FlixSkeleton-Extensions\cs235flix\movies" />
+      <recent name="C:\Users\Sanjeev Toora\Desktop\Srishti new\srishti-cs230\CS235FlixSkeleton-Extensions\cs235flix\templates\movies" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.wsgi">
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS235FlixSkeleton-Extensions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_domain_model.test_normal_review" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CS235FlixSkeleton-Extensions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/domain model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_domain_model.test_normal_review&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_movie.test_hash" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CS235FlixSkeleton-Extensions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/domain model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_movie.test_hash&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_movie.test_normal_user" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CS235FlixSkeleton-Extensions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/domain model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_movie.test_normal_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_domain_model.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CS235FlixSkeleton-Extensions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/domain model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unit/domain model/test_domain_model.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.wsgi" />
+        <item itemvalue="Python tests.pytest in test_domain_model.py" />
+        <item itemvalue="Python tests.pytest for test_domain_model.test_normal_review" />
+        <item itemvalue="Python tests.pytest for test_movie.test_normal_user" />
+        <item itemvalue="Python tests.pytest for test_movie.test_hash" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ad1a958-9a07-46ae-9020-7fb7e3596d36" name="Default Changelist" comment="" />
+      <created>1602041211941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602041211941</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="176" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602570571861">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state x="176" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.923@0.0.1440.923" timestamp="1602570571861" />
+    <state x="-2067" y="377" width="1255" height="737" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602236862968">
+      <screen x="-2160" y="284" width="1440" height="923" />
+    </state>
+    <state x="-2067" y="377" width="1255" height="737" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602236862968" />
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1603005447423">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603005447423" />
+    <state x="451" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603196685744">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state x="-1709" y="492" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602057026557" />
+    <state x="451" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603196685744" />
+    <state x="451" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.923@0.0.1440.923" timestamp="1603158770594" />
+    <state x="93" y="93" width="1255" height="737" key="DiffContextDialog" timestamp="1603197388116">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state x="93" y="93" width="1255" height="737" key="DiffContextDialog/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603197388116" />
+    <state x="93" y="93" width="1255" height="737" key="DiffContextDialog/0.0.1440.923@0.0.1440.923" timestamp="1603166001912" />
+    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1602463439759">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state x="-1659" y="500" key="FileChooserDialogImpl/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602048365965" />
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.923@0.0.1440.923" timestamp="1602463439759" />
+    <state width="1419" height="324" key="GridCell.Tab.0.bottom" timestamp="1603540110080">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state width="1419" height="264" key="GridCell.Tab.0.bottom/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602399600433" />
+    <state width="1259" height="264" key="GridCell.Tab.0.bottom/-2160.284.1440.923/0.0.1280.683@0.0.1280.683" timestamp="1602209929533" />
+    <state width="1419" height="324" key="GridCell.Tab.0.bottom/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603540110080" />
+    <state width="1419" height="239" key="GridCell.Tab.0.bottom/0.0.1440.923@0.0.1440.923" timestamp="1603513436588" />
+    <state width="1419" height="324" key="GridCell.Tab.0.center" timestamp="1603540110080">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state width="1419" height="264" key="GridCell.Tab.0.center/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602399600433" />
+    <state width="1259" height="264" key="GridCell.Tab.0.center/-2160.284.1440.923/0.0.1280.683@0.0.1280.683" timestamp="1602209929533" />
+    <state width="1419" height="324" key="GridCell.Tab.0.center/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603540110080" />
+    <state width="1419" height="239" key="GridCell.Tab.0.center/0.0.1440.923@0.0.1440.923" timestamp="1603513436588" />
+    <state width="1419" height="324" key="GridCell.Tab.0.left" timestamp="1603540110080">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state width="1419" height="264" key="GridCell.Tab.0.left/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602399600433" />
+    <state width="1259" height="264" key="GridCell.Tab.0.left/-2160.284.1440.923/0.0.1280.683@0.0.1280.683" timestamp="1602209929533" />
+    <state width="1419" height="324" key="GridCell.Tab.0.left/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603540110080" />
+    <state width="1419" height="239" key="GridCell.Tab.0.left/0.0.1440.923@0.0.1440.923" timestamp="1603513436588" />
+    <state width="1419" height="324" key="GridCell.Tab.0.right" timestamp="1603540110080">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state width="1419" height="264" key="GridCell.Tab.0.right/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602399600433" />
+    <state width="1259" height="264" key="GridCell.Tab.0.right/-2160.284.1440.923/0.0.1280.683@0.0.1280.683" timestamp="1602209929533" />
+    <state width="1419" height="324" key="GridCell.Tab.0.right/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603540110080" />
+    <state width="1419" height="239" key="GridCell.Tab.0.right/0.0.1440.923@0.0.1440.923" timestamp="1603513436588" />
+    <state width="1419" height="294" key="GridCell.Tab.1.bottom" timestamp="1603536724339">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state width="1418" height="327" key="GridCell.Tab.1.bottom/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602052031346" />
+    <state width="1419" height="294" key="GridCell.Tab.1.bottom/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603536724339" />
+    <state width="1419" height="294" key="GridCell.Tab.1.bottom/0.0.1440.923@0.0.1440.923" timestamp="1603159636050" />
+    <state width="1419" height="294" key="GridCell.Tab.1.center" timestamp="1603536724339">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state width="1418" height="327" key="GridCell.Tab.1.center/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602052031346" />
+    <state width="1419" height="294" key="GridCell.Tab.1.center/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603536724339" />
+    <state width="1419" height="294" key="GridCell.Tab.1.center/0.0.1440.923@0.0.1440.923" timestamp="1603159636050" />
+    <state width="1419" height="294" key="GridCell.Tab.1.left" timestamp="1603536724339">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state width="1418" height="327" key="GridCell.Tab.1.left/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602052031338" />
+    <state width="1419" height="294" key="GridCell.Tab.1.left/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603536724339" />
+    <state width="1419" height="294" key="GridCell.Tab.1.left/0.0.1440.923@0.0.1440.923" timestamp="1603159636050" />
+    <state width="1419" height="294" key="GridCell.Tab.1.right" timestamp="1603536724339">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state width="1418" height="327" key="GridCell.Tab.1.right/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602052031346" />
+    <state width="1419" height="294" key="GridCell.Tab.1.right/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603536724339" />
+    <state width="1419" height="294" key="GridCell.Tab.1.right/0.0.1440.923@0.0.1440.923" timestamp="1603159636050" />
+    <state x="2303" y="0" width="996" height="683" key="SettingsEditor" timestamp="1603534399263">
+      <screen x="2160" y="0" width="1280" height="683" />
+    </state>
+    <state x="2303" y="0" width="996" height="683" key="SettingsEditor/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603534399263" />
+    <state x="126" y="151" width="1255" height="737" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603197388116">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state x="-2061" y="460" width="1255" height="737" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602043362952" />
+    <state x="126" y="151" width="1255" height="737" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603197388116" />
+    <state x="99" y="176" width="1255" height="737" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1440.923@0.0.1440.923" timestamp="1603166001912" />
+    <state x="564" y="246" key="refactoring.ChangeSignatureDialog" timestamp="1603158990538">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state x="564" y="246" key="refactoring.ChangeSignatureDialog/0.0.1440.923@0.0.1440.923" timestamp="1603158990538" />
+    <state x="377" y="103" width="672" height="678" key="search.everywhere.popup" timestamp="1603521135813">
+      <screen x="0" y="0" width="1440" height="923" />
+    </state>
+    <state x="-1783" y="387" width="672" height="678" key="search.everywhere.popup/-2160.284.1440.923/0.0.1280.683@-2160.284.1440.923" timestamp="1602234146568" />
+    <state x="377" y="103" width="672" height="678" key="search.everywhere.popup/0.0.1440.923/2160.0.1280.683@0.0.1440.923" timestamp="1603521135813" />
+    <state x="377" y="103" width="672" height="678" key="search.everywhere.popup/0.0.1440.923@0.0.1440.923" timestamp="1602559727106" />
+  </component>
+</project>

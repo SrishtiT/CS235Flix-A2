@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<main id="main">
+    <header>
+        <h1>{{title}}</h1><br>
+    </header>
+
+    <div style="clear:both">
+        <h2>{{movie.title}}</h2>
+        <div class="form-wrapper">
+            <form action="{{handler_url}}" method="post">
+                {{form.rank}} <!-- Need to include this hidden field as it tracks the rank of the movie being reviewed. -->
+                {{form.genre}} <!-- Need to include this hidden field as it tracks the genre of the movie being reviewed. -->
+                {{form.cursor}} <!-- Need to include this hidden field as it tracks the cursor. -->
+                {{form.actor}} <!-- Need to include this hidden field as it tracks the actor of the movie being reviewed. -->
+                {{form.director}} <!-- Need to include this hidden field as it tracks the director of the movie being reviewed. -->
+                {{form.csrf_token}} <!-- Need to include this token - Flask WTForms requires it. -->
+                <div class ="form-field">{{form.review.label}} </br>{{form.review(size = 100, placeholder="Please type your review", class="textarea", cols="50", rows="6", wrap="hard")}}
+                    {% if form.review.errors %}
+                        <ul class="errors">
+        	            {% for error in form.review.errors %}
+        		            <li>{{error}}</li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+                <div class ="form-field">{{form.rating.label}} </br>{{form.rating(size = 100, placeholder="Please type your rating", class="textarea", cols="50", rows="6", wrap="hard")}}
+                    {% if form.rating.errors %}
+                        <ul class="errors">
+                        {% for error in form.rating.errors %}
+                            <li>{{error}}</li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+                {{ form.submit }}
+            </form>
+        </div>
+        <div style="clear:both">
+            {% for review in movie.reviews %}
+                <p>{{review.review_text}}, by {{review.username}}, {{review.timestamp}}</p>
+            {% endfor %}
+        </div>
+    </movie>
+</main>
+{% endblock %}

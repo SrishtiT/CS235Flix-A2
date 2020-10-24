@@ -1,0 +1,39 @@
+{% extends 'layout.html' %} {% block content %}
+<main id="main">
+
+  <br>
+  <p align="justify">
+      CS235FLIX is a subscription-based streaming service that allows you to watch
+      movies without commercials on an internet connected device. Movies available on
+      CS235FLIX range across various genres ensuring there are the right movies for you!
+      Unlike other streaming services, CS235FLIX is designed to be interactive by allowing
+      you to write reviews and rate movies.
+  </p>
+
+  <br>
+  <h1 style="text-align:center">Top 10 Movies</h1>
+  <table class="center" cellspacing="5" cellpadding="5">
+  <tr>
+    <td><img class="img_home" src="{{ url_for('static', filename='guardians of the galaxy.jpg') }}"/></td>
+    <td><img class="img_home" src="{{ url_for('static', filename='prometheus.jpg') }}" /></td>
+    <td><img class="img_home"src="{{ url_for('static', filename='split.jpg') }}" /></td>
+    <td><img class="img_home" src="{{ url_for('static', filename='sing.jpg') }}" /></td>
+    <td><img class="img_home" src="{{ url_for('static', filename='suicide squad.jpg') }}" /></td>
+  </tr>
+  <tr>
+    <td><img class="img_home"  src="{{ url_for('static', filename='the great wall.jpg') }}" /></td>
+    <td><img class="img_home"  src="{{ url_for('static', filename='la la land.jpg') }}" /></td>
+    <td><img class="img_home"  src="{{ url_for('static', filename='mindhorn.jpg') }}" /></td>
+    <td><img class="img_home"  src="{{ url_for('static', filename='the lost city of z.jpg') }}" /></td>
+    <td><img class="img_home"  src="{{ url_for('static', filename='passengers.jpg') }}" /></td>
+  </tr>
+</table>
+    <br>
+<footer id="footer">
+  <p style="text-align:center"> COMPSCI 235 Srishti Toora</p>
+</footer>
+
+
+
+</main>
+{% endblock %}

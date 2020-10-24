@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<main id="main">
+    <header id="movie-header">
+        <h1>{{ title }}</h1>
+    </header>
+    {% if user_watchlist|length > 0 %}
+        {% for movie in user_watchlist %}
+            <div style="clear: both">
+          <br> <h2>{{movie.title}} ({{movie.year}})</h2>
+            <p align="justify"> {{movie.description}}</p>
+            <h4 style='display:inline'>Director: </h4><p style='display:inline'> {{movie.director}}</p><br>
+            <h4 style='display:inline'> Actors:  </h4><p style='display:inline'> {{ ", ".join(movie.actors)}}</p><br>
+                <button style ="float: right" class="btn-general" onclick="location.href='{{ movie.remove_from_watchlist }}'">Remove from watchlist </button><br>
+            </div>
+            {% endfor %}
+    {% else %}
+        <br>
+        <h2 style="text-align:center">Watchlist is empty!</h2>
+    {% endif %}
+</main>
+
+{% endblock %}
+
+
+

@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<main id="main">
+    <div class="formwrapper">
+        <h1 class="title">{{ title }}</h1>
+        <form method="POST" action="{{ handler_url }}">
+             {{ form.csrf_token }} <!-- Need to include this token - Flask WTForms requires it. -->
+            <div class="form-field">{{ form.actor.label }} {{ form.actor(placeholder="Type the actor in the following format eg. Chris Pratt") }}
+            </div>
+            <div class="form-field">{{ form.genre.label }} {{ form.genre(placeholder="Type the genre in the following format eg. Romance") }}
+            </div>
+            <div class="form-field">{{ form.director.label }} {{ form.director(placeholder="Type the director in the following format eg. James Gunn")  }}
+            </div>
+            {{ form.submit }}
+        </form>
+    </div>
+</main>
+{% endblock %}
